@@ -20,4 +20,12 @@ public class OrganisationController {
     public List<Organisation> getOrganisationDetails(){
         return organisationService.getOrganisationDetails();
     }
+
+    @GetMapping("getparticulardetails")
+    public List<Organisation> getParticularDetails(){
+        return organisationService.getParticularOrgDetails();
+    }
+
+
+
 }

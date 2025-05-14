@@ -9,4 +9,7 @@ import java.util.List;
 public interface OrganisationService {
 
     public List<Organisation> getOrganisationDetails();
+
+    public List<Organisation> getParticularOrgDetails();
+
 }
